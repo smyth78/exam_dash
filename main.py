@@ -38,6 +38,8 @@ app.layout = html.Div(
         dcc.Location(id='base-url', refresh=True),
         dbc.Container([
                 html.Div([
+            dbc.Row([dbc.Col([html.H5('Only includes subjects with over 200 examinations sat...')])],
+                    style={'margin-bottom': ROW_MARGIN, 'margin-top': ROW_MARGIN}),
             dbc.Row([
                 dbc.Col([
                     html.Div(
