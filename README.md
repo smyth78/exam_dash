@@ -2,6 +2,8 @@
 
 This is a Dash application that provides allows the user to both present and display interactive information with audience.
 
+Here is a live URL to the app: https://rchk-exam-data.herokuapp.com/
+
 ## Installation
 
 1. Clone the repository:
